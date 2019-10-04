@@ -1,0 +1,8 @@
+<?php
+
+$conn = mysqli_connect('HOST', 'USER', 'PASSWORD', 'DATABASE');
+
+if(mysqli_connect_errno($conn)){
+    echo 'There was an error with the database';
+    exit;
+}
